@@ -1,0 +1,18 @@
+Python
+Django
+Javascript
+Django REST framework:  https://www.django-rest-framework.org/
+React
+axios: https://axios-http.com/
+Boostrap
+
+
+
+I don't know exactly how many steps you need to copy to just be able to run Django REST framework, React and axios.
+
+
+I followed this page to get it started
+
+https://www.geeksforgeeks.org/how-to-connect-django-with-reactjs/
+
+
