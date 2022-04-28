@@ -127,7 +127,6 @@ input[type=submit], #qty-input, #searchbar, .edit-button {
   color: rgb(255, 255, 255);
   font-size: 15px;
   text-align: center;
-  /*text-shadow: -0.3px 0.3px 0 #000; */ 
   background-color: rgba(82, 197, 159, 0.8);
   border-color: rgba(255, 255, 255, 0.3);
   border-radius: 12px;

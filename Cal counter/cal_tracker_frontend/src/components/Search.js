@@ -83,7 +83,6 @@ class Search extends React.Component {
 
     handleChoice(event){
         const target = event.target;
-        //const attri = target.attributes; 
         const value = target.attributes.value.value;
         
         this.setState({
@@ -112,7 +111,6 @@ class Search extends React.Component {
         })
         .catch(err => {})
     }
-
 
     //this module was the first module i made in react so if I did it today mb it would have been different
     
