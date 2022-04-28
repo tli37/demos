@@ -1,10 +1,10 @@
 Python
 Django
-Javascript
+JavaScript
 Django REST framework:  https://www.django-rest-framework.org/
-React
+React.js
 axios: https://axios-http.com/
-Boostrap
+Bootstrap
 
 
 
