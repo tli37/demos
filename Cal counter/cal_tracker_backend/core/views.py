@@ -7,7 +7,7 @@ from django.contrib.auth import authenticate, login, logout
 from rest_framework.authtoken.models import Token
 
 
-#get food data
+#get food database
 class foodget(APIView):
     
     def get(self, request):
@@ -51,7 +51,7 @@ class Entryclass(APIView): # Entries
             return Response("failed to delete")
     
     def get(self, request):
-        #from the axios APIView get the date in the params
+        #from the axios APIView get the date in the "params"
         date= self.request.query_params.get('date')
         user = self.request.query_params.get('user')
 
@@ -130,6 +130,5 @@ class Loginclass(APIView): #Login
         if user is not None:
             login(request, user)
             return Response({"id": request.user.id, "username":request.user.username })
-            #return Response({"id": request.user.id, "username":request.user.username })
         else: 
             return Response("could not authenicate")
